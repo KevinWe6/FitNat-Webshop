@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FitNat</title>
+  <link href="account-style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <style>
+    body {
+      background-image: url('images/landscape.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
+</head>
+<body>
+  <div id="navigationbar">
+    <ul id="navibar">
+      <li><a href="products.html">products</a></li>
+      <li><a href="exercise.html">Exercises</a></li>
+    </ul>
+    <div id="icons">
+      <a href="account.html"><img src="images/shoppingcart.jpg" alt="Shoppincart"></a>
+      <a href="account.html"><img src="images/account.png" alt="Account"></a>
+    </div>
+    <div class="logo">
+      <a href="index.html"><img src="images/logo.png" alt="Logo"></a>
+    </div>
+  </div>
+
+  <div class="login" style="border-color: #5fe893; border-width: 2px; background: rgba(0, 0, 0, 0.5); border-radius: 10px; color: white;">
+    <img src="images/account.png" style="height: 12%; width: auto; position: absolute; left: 50%; transform: translateX(-50%);">
+    <div style="margin-top: 24%;">
+      <form class="needs-validation">
+        <div class="form-group was-validated">
+          <label class="form-label" for="email">Email address</label>
+          <input class="form-control" type="email" id="email" required>
+          <div class="invalid-feedback">
+            Please enter your email address
+          </div>
+        </div>
+        <div class="form-group was-validated">
+          <label class="form-label" for="password">Password</label>
+          <input class="form-control" type="password" id="password" required>
+          <div class="invalid-feedback">
+            Please enter your password
+          </div>
+        </div>
+        <div class="form-group form-check">
+          <input class="form-check-input" type="checkbox" id="check">
+          <label class="form-check-label" for="check">Remember me</label>
+        </div>
+        <div class="d-flex">
+          <input class="btn btn-success w-50 mr-1" type="submit" value="SIGN IN">
+          <button class="btn btn-primary signup-button" onclick="window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ')">SIGN UP</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  
+  
+</body>
+</html>

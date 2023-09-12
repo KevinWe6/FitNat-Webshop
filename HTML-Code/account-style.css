@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #0d6efd;
+}
+
+.login {
+  width: 360px;
+  height: min-content;
+  padding: 20px;
+  border-radius: 12px;
+  background: #ffffff;
+  justify-content: center;
+  font-family: 'regular';
+}
+
+.login h1 {
+  font-size: 36px;
+  margin-bottom: 25px;
+}
+
+.login form {
+  font-size: 20px;
+}
+
+.login form .form-group {
+  margin-bottom: 12px;
+}
+
+.login form input[type="submit"] {
+  margin-top: 15px;
+}
+
+.signup-button {
+  margin-top: 15px;
+  width: 50%;
+  padding: 0;
+}
+
+
+@font-face {
+  font-family: 'couture';
+  src: url(font/couture.otf);
+}
+
+@font-face {
+  font-family: 'regular';
+  src:  url(font/Poppins-Regular.ttf);
+}
+
+#navigationbar {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+#icons img {
+  width: 40px;
+  height: auto;
+  margin-right: 30px;
+}
+
+.logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.logo img {
+  max-height: 50px;
+  max-width: 100%;
+}
+
+#navibar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+#navibar li {
+  margin-right: 10px;
+  margin-left: 10%;
+}
+
+#navibar a {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: 'couture';
+}
+
+#navibar a:hover {
+  color: #5fe893;
+}
+
+
